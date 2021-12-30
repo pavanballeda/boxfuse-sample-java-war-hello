@@ -17,6 +17,8 @@ pipeline {
         stage('build-maven') {
             steps {
                 bat 'mvn clean install'
+                
+                
             }
         }
         
